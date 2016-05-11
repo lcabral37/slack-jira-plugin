@@ -1,9 +1,15 @@
+node_modules
+!config-example.js
+config.js
+config-*.js
+
+*.log
+
 .idea
 *.iml
 lib-cov
 lcov.info
 *.seed
-*.log
 *.csv
 *.dat
 *.out
@@ -15,7 +21,3 @@ logs
 results
 build
 .grunt
-
-node_modules
-config.js
-config-jira.js
